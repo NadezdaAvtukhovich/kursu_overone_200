@@ -1,7 +1,7 @@
 # создайте кортеж из случайных 10 чисел. Найдите его максимальный минимальный элемент.
 import random
 # i = 0
-a = [random.randint(0, 10) for i in range(1, 10)]
+a = [random.randint(0, 10) for i in range(10)]
 # while i <= 10:
 #     a.append(random.randint(0, 10))
 #     i += 1
