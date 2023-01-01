@@ -2,3 +2,4 @@
 # Выведите значение возраста из словаря person.
 person = {'name': 'Nadezda', 'age': 22, 'city': 'Minsk'}
 print(person['age'])
+

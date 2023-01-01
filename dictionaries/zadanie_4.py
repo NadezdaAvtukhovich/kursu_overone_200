@@ -4,3 +4,4 @@ pr = 1
 for i in a:
     pr *= a[i]
 print(pr)
+

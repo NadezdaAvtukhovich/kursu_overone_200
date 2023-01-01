@@ -21,7 +21,8 @@ for i in set(long_word):
 # Допишите скрипт для расчета средней температуры
 # Постарайтесь посчитать количество дней на основе week_temp.
 # Так наш скрипт сможет работать c данными за любой период
-#
+
+# Модуль statistics предоставляет функции для вычисления математической статистики числовых (вещественных) данных.
 from statistics import mean
 week_temp = (26, 29, 34, 32, 28, 26, 23)
 
@@ -33,3 +34,4 @@ mean_temp = int(mean(week_temp))
 # days = len(week_temp)
 # mean_temp = sum_temp / days
 print(int(mean_temp))
+

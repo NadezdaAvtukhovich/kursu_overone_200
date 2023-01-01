@@ -4,3 +4,4 @@
 a = {'BMW': ['BMW X1', 'BMW X5', 'BMW X6'], 'Tesla': ['Model S', 'Roadster', 'Cybertruck']}
 for i in a:
     print(a[i][0], a[i][-1])
+

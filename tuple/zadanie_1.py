@@ -7,3 +7,4 @@ a = [random.randint(0, 10) for i in range(10)]
 #     i += 1
 b = tuple(a)
 print(f'Кортеж {b} с минимальным элементом {min(b)} и максимальным элементом {max(b)}')
+
