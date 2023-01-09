@@ -13,3 +13,4 @@ def get_koluchestvo(a):
 
 
 get_koluchestvo(input('Stroka: '))
+

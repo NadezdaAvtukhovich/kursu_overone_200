@@ -14,3 +14,5 @@ def get_colichestvo_razryadov(a):
 
 
 get_colichestvo_razryadov(23457)
+
+
