@@ -10,13 +10,19 @@
 # func('happy new year', ' ')   --> None
 
 def strokali(a):
-    if a.isdigit():
-        return 'Строка - целое число'
-    else:
+    k = a.split()
+    l = 1
+    for i in k:
+        if not i.isdigit():
+            l *= 0
+    if l == 0:
         return 'Строка включает другие символы'
+    else:
+        return 'Строка - целое число'
 
-print(strokali('1234'))
-print(strokali('123ввс4'))
+
+print(strokali('12 34  6734'))
+print(strokali('123ввс4 45'))
 
 b = 'Mary Christmas'
 c = 'r'
