@@ -13,12 +13,14 @@ class Animal:
 class Cat(Animal):
 
     def make_a_sound(self):
+        super().make_a_sound()
         print('Царапать мебель')
 
 
 class Dog(Animal):
 
     def make_a_sound(self):
+        super().make_a_sound()
         print('Рыть землю')
 
 cat1 = Cat()
